@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BelajarKotlin1"
+        tools:targetApi="31">
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.BelajarKotlin1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Fragment Activities -->
+        <activity android:name=".FragmentActivity" android:exported="false" />
+
+        <!-- Layout Activities (Jobsheet 4) -->
+        <activity android:name=".jobsheet4layout.LayoutActivity" android:exported="false" />
+        <activity android:name=".jobsheet4layout.Constraintlayout" android:exported="false" />
+        <activity android:name=".jobsheet4layout.Relativelayout" android:exported="false" />
+        <activity android:name=".jobsheet4layout.LinearlayoutActivity" android:exported="false" />
+
+        <!-- Dialog Activities (Jobsheet 5) -->
+        <activity android:name=".jobsheet5dialog.HelpActivity" android:exported="false" />
+        <activity android:name=".jobsheet5dialog.DialogActivity" android:exported="false" />
+
+        <!-- RecyclerView Activity (Jobsheet 7) -->
+        <activity android:name=".jobsheet7adapter.RecycleActivity" android:exported="false" />
+
+        <!-- View Activities (Jobsheet 8) -->
+        <activity android:name=".jobsheet8view.TabHostActivity" android:exported="false" />
+        <activity android:name=".jobsheet8view.TabHost" android:exported="false" />
+        <activity android:name=".jobsheet8view.SearchView" android:exported="false" />
+        <activity android:name=".jobsheet8view.MenuView" android:exported="false" />
+
+        <!-- Notification Features (Jobsheet 9) -->
+        <activity android:name=".jobsheet9Notification.NotificationActivity" android:exported="false" />
+        <receiver
+            android:name=".jobsheet9Notification.AlarmReceiver"
+            android:exported="true"
+            android:permission="android.permission.BROADCAST_ALARM" />
+        <service
+            android:name=".jobsheet9Notification.NotificationService"
+            android:exported="true" />
+
+        <!-- UTS Combine Activities -->
+        <activity android:name=".utscombine.WeatherApp" android:exported="false" />
+        <activity android:name=".utscombine.RecipeActivity" android:exported="false" />
+
+    </application>
+
+</manifest>

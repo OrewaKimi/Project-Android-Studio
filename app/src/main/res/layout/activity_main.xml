@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Existing Buttons -->
+    <Button
+        android:id="@+id/buttonGoToSecondActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Second Activity" />
+
+    <Button
+        android:id="@+id/buttonGoToIntentActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_intent_activity" />
+
+    <Button
+        android:id="@+id/buttonGoToPertemuan4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_pertemuan_4" />
+
+    <Button
+        android:id="@+id/buttonGoToPertemuan5Fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_pertemuan_5_fragment" />
+
+    <Button
+        android:id="@+id/buttonGoToPertemuan6Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_pertemuan_6_layout" />
+
+    <Button
+        android:id="@+id/buttonGoToPertemuan7Dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Pertemuan 7 Dialog" />
+
+    <Button
+        android:id="@+id/buttonGoToWeatherApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_weather_app" />
+
+    <Button
+        android:id="@+id/button_to_adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Adapter Content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/button_to_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to View Content"/>
+
+    <Button
+    android:id="@+id/buttonNotification"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Go to Notification Content" />
+
+</LinearLayout>

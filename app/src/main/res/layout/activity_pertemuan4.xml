@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText untuk input Nama -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama"
+        android:layout_marginTop="16dp"
+        android:inputType="textPersonName" />
+
+    <!-- EditText untuk input Umur -->
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Umur"
+        android:layout_marginTop="16dp"
+        android:inputType="number" />
+
+    <!-- Button untuk mengirim data ke ProfileActivity -->
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kirim Data"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

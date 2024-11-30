@@ -1,0 +1,37 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/relative_layout_activity"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/submit"
+        android:layout_below="@id/textViewRelative"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/imageViewRelative"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/buttonRelative"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:importantForAccessibility="no"
+        android:contentDescription="@string/image_description"
+        android:src="@drawable/ic_launcher_foreground"
+        tools:ignore="ImageContrastCheck" />
+</RelativeLayout>

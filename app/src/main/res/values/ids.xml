@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button_linearlayout" type="id" />
+    <item name="button_relativelayout" type="id" />
+    <item name="button_constraintlayout" type="id" />
+    <item name="textViewConstraint" type="id" />
+    <item name="buttonConstraint" type="id" />
+    <item name="imageViewConstraint" type="id" />
+    <item name="btn_toast" type="id" />
+    <item name="btn_snackbar" type="id" />
+    <item name="btn_dialog" type="id" />
+    <item name="sunrise" type="id" />
+    <item name="sunset" type="id" />
+    <item name="wind" type="id" />
+    <item name="pressure" type="id" />
+    <item name="humidity" type="id" />
+</resources>
